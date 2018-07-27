@@ -112,7 +112,7 @@ table
 .background { 
 	margin:0;
 	padding:0;
-	background: url('public/imgs/background.jpg') no-repeat center fixed;
+	background: url('../imgs/background.jpg') no-repeat center fixed;
 	-webkit-background-size: cover; 
 	background-size: cover;
 }
