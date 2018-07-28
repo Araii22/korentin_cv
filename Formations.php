@@ -3,7 +3,7 @@
 	<head>
 		<title> CV de Korentin Chaume </title>
 		<meta charset="UTF-8"/>
-		<link rel="stylesheet" type="text/css" href="CV.css">
+		<link rel="stylesheet" type="text/css" href="public/css/style.css">
 	</head> 
 	<header>
 		<?php echo "<h1> CV de Korentin Chaume	</h1>"; 

@@ -3,7 +3,7 @@
 	<head>
 		<title> CV  Korentin Chaume </title>
 		<meta charset="UTF-8"/>
-		<link rel="stylesheet" type="text/css" href="CV.css">
+		<link rel="stylesheet" type="text/css" href="public/css/style.css">
 	</head> 
 	<body class="background">
 		
