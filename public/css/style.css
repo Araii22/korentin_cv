@@ -11,8 +11,6 @@ header
     font: 1.1em sans-serif;
 }
 ul{
-    display: inline-flex;
-	flex-direction: row;
     width: 500px;
     margin: 100px auto;
     padding: 0;
