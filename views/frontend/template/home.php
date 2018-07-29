@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Korentin Chaume</title>
+    <title><?= $title ?></title>
     <!-- Bootstrap -->
     <link href="public/css/bootstrap-4.0.0.css" rel="stylesheet">
 	<link href="public/css/style.css" rel="stylesheet">
@@ -25,13 +25,7 @@
 		  </div>
 		  
 		  <!-- content -->
-		  <div class="row index-button">
-		  	<div class="col-4"></div>
-		  	<div class="col-4 mt-5">
-				  <a class="btn btn-danger" href="accueil.html">Découvrir mon CV</a>
-			</div>
-		  	<div class="col-4"></div>
-		  </div>
+		 <?= $content ?>
 		  
 		  
 	  </div>
