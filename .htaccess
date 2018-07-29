@@ -1,0 +1,25 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^www\.guingamp-business\.com [NC]
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI}
+RewriteRule ^([a-zA-Z0-9-]+)$ index?page=$1
+RewriteRule ^([a-zA-Z0-9-]+)-([a-zA-Z0-9-_\ ]+)$ index?page=$1&entreprise=$2
+RewriteRule ^([a-zA-Z0-9-]+)&([a-zA-Z0-9-_\ ]+)$ index?page=$1&action=$2
+RewriteRule ^([a-zA-Z0-9-]+)-([a-zA-Z0-9-_\ ]+)&([a-zA-Z0-9-_]+)$ index?page=$1&entreprise=$2&action=$3 [L]
+
+
+Options -Indexes 
+
+ErrorDocument 400 /erreurs/index?error=400
+ErrorDocument 401 /erreurs/index?error=401
+ErrorDocument 402 /erreurs/index?error=402
+ErrorDocument 403 /erreurs/index?error=403
+ErrorDocument 404 /erreurs/index?error=404
+ErrorDocument 405 /erreurs/index?error=405
+ErrorDocument 500 /erreurs/index?error=500
+ErrorDocument 501 /erreurs/index?error=501
+ErrorDocument 502 /erreurs/index?error=502
+ErrorDocument 503 /erreurs/index?error=503
+ErrorDocument 504 /erreurs/index?error=504
+ErrorDocument 505 /erreurs/index?error=505
