@@ -4,16 +4,30 @@
 
 <section>
 <div class="container-fluid">
-	<div class="row pt-4">
+	<div class="row pt-4 mb-5">
 		<div class="col-12 col-md-3">&nbsp;</div>
-		<div class="col-12 col-md-6"> 	
+		<div class="col-12 col-md-6 contact-background"> 	
 				<div class="row">
 				  <form action="contact" method="post" class="col-12">
 						<div class="text-center title-img col-12 mb-1">
 						<h1>Prenons Contact !</h1>
-						<?php if($message_error) {?>
-							<h2><?= $message_error ?></h2>
-							<?php } ?>
+						<?php 
+				  if($message_error)
+				  {?>
+				  <button class="alert alert-<?php
+						if($message_color)
+						{
+							echo($message_color);
+						}
+				   		else {
+							echo('info');
+						}?>"><?=$message_error?></button>
+				  <?php
+				  }
+							else {
+								echo'';
+							}
+				  ?>
 					 </div>
 
 					  <div class="row">

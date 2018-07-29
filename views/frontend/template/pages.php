@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Korentin Chaume</title>
+    <title><?= $title ?></title>
     <!-- Bootstrap -->
     <link href="public/css/bootstrap-4.0.0.css" rel="stylesheet">
 	<link href="public/css/style.css" rel="stylesheet">
@@ -33,16 +33,16 @@
 					  <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
 						<ul class="navbar-nav mx-auto mt-2 mt-lg-0 nav-fill">
 						  <li class="nav-item active ">
-							<a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+							<a class="nav-link" href="accueil">Accueil<span class="sr-only">(current)</span></a>
 						  </li>
 						  <li class="nav-item">
-							<a class="nav-link" href="#">Formation</a>
+							<a class="nav-link" href="formations">Formations</a>
 						  </li>
 						  <li class="nav-item">
-							<a class="nav-link" href="#">Divers</a>
+							<a class="nav-link" href="divers">Divers</a>
 						  </li>
 						  <li class="nav-item">
-							<a class="nav-link" href="#">Contact</a>
+							<a class="nav-link" href="contact">Contact</a>
 						  </li>
 						</ul>
 					  </div>

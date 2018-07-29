@@ -21,15 +21,16 @@ try
 		 	  sendMail($_POST);
 		    }
 			// si le formulaire à été rempli mais pas compléter
-		  elseif (!empty($_POST) && empty($_POST['nom']) && empty($_POST['prenom']) && empty($_POST['email_adress']) && empty($_POST['message']))
+		  elseif (!empty($_POST) && empty($_POST['nom']) || empty($_POST['prenom'])|| empty($_POST['email_adress']) || empty($_POST['message']))
 			{
            		$message_error = "Les champs : Nom, Prénom, E-mail, et Message sont obligatoires";
-			    
+			    $message_color ="warning";
 				require('views/frontend/contact.php');
 			}
 			//si le formulaire n'as jamais été rempli
 			else {
 				$message_error = '';
+				$message_color= '';
 				require('views/frontend/contact.php');
 			}
 		}

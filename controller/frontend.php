@@ -7,9 +7,9 @@ function postPage()
 		{
 			require('views/frontend/accueil.php');
 		}
-		elseif ($_GET['page'] == 'Formations') 
+		elseif ($_GET['page'] == 'formations') 
 		{
-			require('views/frontend/formation.php');
+			require('views/frontend/formations.php');
 		}
 		elseif ($_GET['page'] == 'divers') 
 		{
@@ -44,7 +44,7 @@ function sendMail()
 	
 	if ($decode['success'] == true) {*/
 		// C'est un humain
-		$adress = "webmaster@guingamp-business.com";
+		$adress = "allan@toketa.com";
 
 $TO = $adress;
 
@@ -58,7 +58,7 @@ $head .="Content-Type: text/plain; charset=utf-8\n";
 //ensuite on passe les données dans des variables
 $nom = $_POST['nom'];
 $prenom = $_POST['prenom'];
-$email = $_POST['email'];
+$email = $_POST['email_adress'];
 $message = $_POST['message'];
 	
 //Maintenant on fait les trucs relou il faut tout sécurisé
@@ -82,7 +82,7 @@ $message = $_POST['message'];
 	
 	
 //là on définit le sujet du message qui apparaitra dans le mail
-$sujet ="CV Korentin: ".$sujet_messsage."\n";
+$sujet ="CV Korentin";
 
 	
 //Ensuite on écrit le message que l'on souhaite
@@ -110,6 +110,7 @@ $res = mail($TO, $sujet, $informations, $head);
 $message_error = "Votre message a été envoyé";
 $message_color = "success";
 require('views/frontend/contact.php');
+	
 	}
 	
 	/*else {

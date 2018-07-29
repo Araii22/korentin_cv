@@ -15,10 +15,10 @@
 		  
 		  <!--Titre-->
 		<div class="row pt-4 mb-3">
-			<div class="col-8">
+			<div class="col-12 col-md-8">
 			<h1>Korentin Chaume</h1>
 			</div>
-			<div class="col-4">
+			<div class="col-12 col-md-8">
 				<img src="public/images/400X200.gif" alt="" class="img-fluid"/>
 			</div>
 			
