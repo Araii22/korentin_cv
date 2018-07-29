@@ -171,7 +171,8 @@ footer {
 /*mise en page index*/
 
 .index-button {
-	top: 75%;
+	margin-top: 10%;
+	margin-bottom: 20%;
 
 }
 .index-button a{
