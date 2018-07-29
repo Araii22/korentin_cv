@@ -44,7 +44,7 @@ function sendMail()
 	
 	if ($decode['success'] == true) {*/
 		// C'est un humain
-		$adress = "allan@toketa.com";
+		$adress = "exmple@domaine.com";
 
 $TO = $adress;
 
