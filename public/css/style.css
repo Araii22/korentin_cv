@@ -167,3 +167,10 @@ footer {
 .header-post {
 	font-weight: bold;
 }
+
+/*mise en page index*/
+
+.index-button {
+	margin-top: 50vh;
+	font-size: 5em;
+}
