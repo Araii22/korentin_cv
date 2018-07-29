@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?= $title ?></title>
     <!-- Bootstrap -->
-    <link href="public/css/bootstrap-4.0.0.css" rel="stylesheet">
-	<link href="public/css/style.css" rel="stylesheet">
+	<?php include('public/css/style.css') ?>
+	<?php include('public/css/bootstrap-4.0.0.css') ?>
 	  
   </head>
   <body class="background">
@@ -75,7 +75,8 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="public/js/jquery-3.2.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script  src="public/js/popper.min.js"></script>
-    <script  src="public/js/bootstrap-4.0.0.js"></script>
+    <script  async src="public/js/popper.min.js"></script>
+    <script async src="public/js/bootstrap-4.0.0.js"></script>
   </body>
+
 </html>
