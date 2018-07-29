@@ -24,7 +24,7 @@ try
 			// si le formulaire à été rempli mais pas compléter
 		  elseif (!empty($_POST) && empty($_POST['nom']) && empty($_POST['prenom']) && empty($_POST['email_adress']) && empty($_POST['message']))
 			{
-           		$message_error = "Les champs : Nom, Prénom, E-mail, et Message sont obligatoires ainsi que le Captcha.";
+           		$message_error = "Les champs : Nom, Prénom, E-mail, et Message sont obligatoires";
 			    
 				require('views/frontend/contact.php');
 			}

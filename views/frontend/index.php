@@ -13,4 +13,4 @@
 
 <?php $content = ob_get_clean(); ?>
 
-<?php require('views/frontend/template/pages.php'); ?>
+<?php require('views/frontend/template/home.php'); ?>
