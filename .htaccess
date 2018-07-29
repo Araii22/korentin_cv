@@ -1,6 +1,6 @@
 RewriteEngine On
 
-#RewriteCond %{HTTP_HOST} ^www\.guingamp-business\.com [NC]
+#RewriteCond %{HTTP_HOST} ^www\.votredomaine\.com [NC]
 #RewriteCond %{HTTPS} off
 #RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI}
 
