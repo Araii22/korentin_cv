@@ -22,8 +22,8 @@
 		  
 		 <!-- menu-->
 	  	<div class="row mb-5">
-			  <div class="col-5"></div>
-			  <div class="col-12 col-md-5">
+ 			<div class="col-3"></div>
+			  <div class="col-12 col-md-6">
 				  <nav class="navbar navbar-expand-md navbar-korentin bg-crimson">
 					  
 					  <a class="navbar-brand d-md-none text-center" href="#">Korentin <br />Chaume</a>
@@ -48,7 +48,7 @@
 					  </div>
 					</nav>
 				</div>
-			  <div class="col-2"></div>
+			  <div class="col-3"></div>
 		</div>
 		  
 		  <!-- content -->
