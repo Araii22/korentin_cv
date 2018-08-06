@@ -70,7 +70,20 @@
 				</div>
 			
 	</div>
-		<div class="col-12 col-md-3">&nbsp;</div>
+		<!--side barre-->
+		<div class="col-12 col-md-3">
+			<div class="row">
+				<div class="col-12">
+					<img src="public/image/linkedin.png" alt="">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<img src="" alt="">
+				</div>
+			</div>
+
+		</div>
 	</div>
 </div>
 </section>
