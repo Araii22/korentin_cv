@@ -73,9 +73,27 @@
 		<!--side barre-->
 		<div class="col-12 col-md-3">
 			<div class="row">
-				<div class="col-12">
-					<img src="public/image/linkedin.png" alt="">
+				<div class="col-12 mx-auto text-center">
+					<!-- parti visible -->
+					<a data-toggle="collapse" href="#LinkTel" role="button" aria-expanded="false" aria-controls="collapseExample">
+    								<img src="public/images/telephone.png" alt="" class="img-fluid" width="50%">
+  					</a>
+									
+						
+					<!--Parti invisible-->
+						<div class="collapse" id="LinkTel">
+							<div class="card-body">
+								<p style="font-size: 2rem;" class="btn btn-danger">0770400928</p>
+									 <div class="d-block d-md-none">
+										 <a href="tel: +33770400928" role="button" class="btn btn-outline-danger"><strong>Appeler</strong></a>
+									</div>
+							</div>
+					    </div>
 				</div>
+			  <div class="col-12 mx-auto text-center">
+					<img src="public/images/linkedin.png" alt="" class="img-fluid" width="50%">
+				</div>
+				
 			</div>
 			<div class="row">
 				<div class="col-12">
